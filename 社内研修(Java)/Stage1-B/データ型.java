@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class main1b {
+public class Main1b {
   
   public static void main(String[] args) {
       
