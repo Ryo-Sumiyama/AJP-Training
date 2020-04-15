@@ -1,15 +1,15 @@
 class Main{
     public static void main(String[] args) {
         
-        String s = "12";
+        String number0 = "12";
         
-        int ss =Integer.parseInt(s);
+        int number1 =Integer.parseInt(number0);
         
-        int i = 5;
+        int number2 = 5;
         
-        int c = ss * i;
+        int result= number1 * number2;
         
-        System.out.println(c);
+        System.out.println(result);
    }
 
 }
