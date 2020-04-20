@@ -1,17 +1,17 @@
 import java.util.ArrayList;
 import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-      List <String> L = new ArrayList<>();
+        List <String> week = new ArrayList<>();
       
-      L.add("monday");
-      L.add("tuesday");
-      L.add("wednesday");
-      L.add("thursday");
-      L.add("friday");
-      L.add("saturday");
-      L.add("sunday");
+        week.add("monday");
+        week.add("tuesday");
+        week.add("wednesday");
+        week.add("thursday");
+        week.add("friday");
+        week.add("saturday");
+        week.add("sunday");
       
-      System.out.println(L);
     }
 }
