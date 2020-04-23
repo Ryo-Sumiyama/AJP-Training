@@ -10,8 +10,8 @@ class Main {
     private static void printColors(String ... colors) {
     
         try {
-        File file = new File("home/ec2-user/environment/サンプル実行/output");
-        FileWriter fw = new  FileWriter("{200423}_output.txt");
+        File file = new File("/home/ec2-user/environment/サンプル実行/output/{200423}_output.txt");
+        FileWriter fw = new FileWriter(file);
         for (int i = 0; i < colors.length; i++) {
              fw.write(colors[i]);
             }
@@ -23,5 +23,7 @@ class Main {
         }
        	
     }
+
+        
 
         
