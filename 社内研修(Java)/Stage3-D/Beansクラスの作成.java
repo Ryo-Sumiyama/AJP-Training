@@ -1,20 +1,21 @@
 import java.io.Serializable;
+import java.util.Date;
 
 class Main {
   
-  public static void main(String[] args) 
+  public static void main(String[] args){
     }
   public class UserBean implements Serializable {
     
-　  private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
     
-  　private String userId;
+    private String userId;
     private String userName;
-  　private String password;
+    private String password;
     private Date birthday;
     private int age;
     
-  　public UserBean() {}
+    public UserBean() {}
     //userIdのsetter、getter
     public void setUserId(String userId) {this.userId = userId;}
     public String getUserId() {return this.userId;}
@@ -31,3 +32,4 @@ class Main {
     public void setAge(int age) {this.age = age;}
     public int getAge() {return this.age;}
     }
+}
