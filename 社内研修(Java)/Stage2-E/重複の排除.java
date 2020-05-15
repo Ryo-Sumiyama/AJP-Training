@@ -17,8 +17,8 @@ class Main {
           list.add(fruits2[i]);}
        }
        //重複した値を出力
-       String[] array=(String[])list.toArray(new String[0]);
-       System.out.println( 1 + ":" +array[0]);
-       System.out.println( 2 + ":" +array[1]);
+       
+       System.out.println( 1 + ":" +list.get(0));
+       System.out.println( 2 + ":" +list.get(1));
     }
 }
