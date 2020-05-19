@@ -20,7 +20,7 @@ public class Main {
       
       //Map変数weekを宣言
         Map<String,String> week = new LinkedHashMap<>();
-      
+      //List変数の要素数の分繰り返し
         for(String str : day) {
       //keyとvalueに割り当て  
             week.put(day.get(0),"月曜日");
