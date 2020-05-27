@@ -18,7 +18,6 @@ import java.text.ParseException;
     private int age;
     private String residence;
     
-    //インスタンスの生成数をカウント
     UserBean() {}
     //userIdのsetter、getter
     public void setUserId(String userId) {this.userId = userId;}
@@ -36,7 +35,7 @@ import java.text.ParseException;
     public void setAge(int age) {this.age = age;}
     public int getAge() {return this.age;}
     //residenceのsetter,getter
-    //初期値に所属地を割りあてるコンストラクタを作成
+    //初期値に所属地を割りあてるコンストラクタを作成、インスタンスの生成数をカウント
     UserBean(String residence) {
         Main.cnt++;
         this.residence = residence;
@@ -78,7 +77,7 @@ import java.text.ParseException;
         } catch (ParseException e) {
             e.printStackTrace();
         }
-
+     
     //セットした値を出力
     System.out.println(userBean.toString());
     System.out.println(userBean);
