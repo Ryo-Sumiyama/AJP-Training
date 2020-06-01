@@ -1,3 +1,5 @@
+create database TASK_DB;
+
 CREATE TABLE T_USER (
   USER_ID varchar(12) NOT NULL, 
   USER_NM  varchar(10)NOT NULL,
