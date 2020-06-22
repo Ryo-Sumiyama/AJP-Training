@@ -1,0 +1,24 @@
+.oneArea {
+  background: linear-gradient(90deg, #FF0000  0px, #FF0000 750px, #000000 750px, #000000 1500px );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 360px;
+}
+.twoArea {
+  background: linear-gradient(90deg, #00B0F0  0px, #00B0F0 375px, #A9D18E 375px, #A9D18E 750px,#2E75B6  750px, #2E75B6 1125px, #C55A11 1125px, #C55A11 1500px );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 180px;
+}
+.threeArea {
+  background: #FFD966;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 180px;
+}
