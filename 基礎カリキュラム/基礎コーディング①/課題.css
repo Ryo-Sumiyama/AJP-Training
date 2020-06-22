@@ -1,0 +1,16 @@
+.oneArea {
+  background: linear-gradient(90deg, #FF0000  0px, #FF0000 750px, #FFFF00 750px, #FFFF00 1500px );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 375px;
+}
+.twoArea {
+  background: #00B0F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 375px;
+}
