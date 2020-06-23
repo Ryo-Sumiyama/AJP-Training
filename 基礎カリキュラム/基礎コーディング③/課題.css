@@ -1,0 +1,65 @@
+.oneArea {
+  background: #FFD966;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 80px;
+
+}
+.twoArea {
+  background: #DAE3F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 128px;
+   
+}
+.threeArea {
+  background: #FFCC00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 128px;
+  
+}
+.fourArea {
+  background: #66CCFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 128px;
+
+}
+.fiveArea {
+  background: #6666FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 128px;
+
+}
+.sixArea {
+  background: #66FF66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 128px;
+
+}
+.photo img {
+    width:1100px;
+   height:640px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+   position:absolute;
+   top: 80px;
+   left:400px;
+ 
+}
