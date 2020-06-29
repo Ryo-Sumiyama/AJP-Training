@@ -28,6 +28,7 @@ public class Black {
                return;
             }
         }
+    
         // Nの時
        if("N".equals(answer)){
         //   親の値(15-22)を取得、出力
