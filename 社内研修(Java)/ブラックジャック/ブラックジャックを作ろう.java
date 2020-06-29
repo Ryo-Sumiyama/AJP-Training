@@ -11,12 +11,11 @@ public class Black {
         player += first;
         System.out.println("『数値：[" + player + "]　合計：[" + player + "]』");
         
-        String answer ="";
         while(true){
         System.out.println("次のランダム数値を取得しますか[Y/N]");
         // 文字を入力してもらう
         Scanner scanner = new Scanner(System.in);
-        answer =scanner.next();
+        String answer =scanner.next();
         
         // Yの時
         if("Y".equals(answer)){
